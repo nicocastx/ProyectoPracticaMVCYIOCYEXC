@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "{nombrePlaylist}",
+    "creationDate": "2024-04-20",
+    "description": "Una colección de mis canciones favoritas.",
+    "tracks": [
+      {
+        "id": 1,
+        "name": "Canción de Ejemplo",
+        "duration": "00:03:30",
+        "artist": {
+          "id": 1,
+          "name": "Artista Ejemplar",
+          "country": "México",
+          "description": "Un artista con un estilo único."
+        }
+      },
+      {
+        "id": 2,
+        "name": "Canción de Ejemplo",
+        "duration": "00:05:30",
+        "artist": {
+          "id": 1,
+          "name": "Artista Ejemplar",
+          "country": "México",
+          "description": "Un artista con un estilo único."
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "",
+    "creationDate": "2024-04-20",
+    "description": "Una colección de mis canciones favoritas xd.",
+    "tracks": [
+      {
+        "id": 2,
+        "name": "Sunday in saturday",
+        "duration": "00:02:30",
+        "artist": {
+          "id": 2,
+          "name": "Cantor cantista",
+          "country": "Argentina",
+          "description": "Un artista muy cantante que se dedica a cantar sus canciones cancioneras."
+        }
+      }
+    ]
+  }
+]

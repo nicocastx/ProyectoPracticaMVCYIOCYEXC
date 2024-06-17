@@ -1,9 +1,13 @@
 package com.springbootapp.proyectopracticamvcyiocyexc.repositories;
 
-public interface Repository<T> {
-    void getAll();
+import com.springbootapp.proyectopracticamvcyiocyexc.Exceptions.NoExisteElementoException;
 
-    int getById(int id);
+import java.util.List;
+
+public interface Repository<T> {
+    List<T> getAll();
+
+    T getById(int id) throws NoExisteElementoException;
 
     int add(T t);
 }
